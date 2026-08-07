@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="630" fill="#FBEAF0"/>
+<g fill="#D4537E" opacity="0.9">
+<circle cx="1000" cy="150" r="55"/>
+<circle cx="1090" cy="200" r="55"/>
+<circle cx="1000" cy="250" r="55"/>
+<circle cx="910" cy="200" r="55"/>
+</g>
+<circle cx="1000" cy="200" r="48" fill="#993556"/>
+
+<g fill="#639922" opacity="0.9">
+<circle cx="150" cy="480" r="45"/>
+<circle cx="230" cy="520" r="45"/>
+<circle cx="150" cy="560" r="45"/>
+<circle cx="70" cy="520" r="45"/>
+</g>
+<circle cx="150" cy="520" r="40" fill="#3B6D11"/>
+
+<text x="100" y="290" font-family="sans-serif" font-size="72" font-weight="500" fill="#4B1528">Bloom &amp; Co</text>
+<text x="100" y="345" font-family="sans-serif" font-size="32" fill="#993556">Toko Bunga Segar untuk Setiap Momen Spesial</text>
+</svg>

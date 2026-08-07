@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --color-ivory: #fbf7f2;
+  --color-berry: #3a1220;
+  --color-rose: #b23a5c;
+  --color-rose-dark: #8a2c47;
+  --color-blush: #f7e4e9;
+  --color-moss: #4a6741;
+  --color-moss-dark: #384f31;
+  --color-line: #e8c9d2;
+}
+
+@theme inline {
+  --color-ivory: var(--color-ivory);
+  --color-berry: var(--color-berry);
+  --color-rose: var(--color-rose);
+  --color-rose-dark: var(--color-rose-dark);
+  --color-blush: var(--color-blush);
+  --color-moss: var(--color-moss);
+  --color-moss-dark: var(--color-moss-dark);
+  --color-line: var(--color-line);
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-berry);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fade-up {
+    animation: fadeUp 0.6s ease-out both;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
