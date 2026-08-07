@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { siteConfig } from "@/lib/site-config";
 
-const siteUrl = "https://tokobungakamu.com"; // ganti dengan domain asli setelah beli domain
+const siteUrl = "https://bloom-co-seven.vercel.app"; // ganti dengan domain asli setelah beli domain
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
